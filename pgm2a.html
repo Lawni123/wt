@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Fibonacci series</title>
+</head>
+<body bgcolor="yellow">
+<h1 style="color:red; text-align:center;">fibonacci series till limit n</h1>
+<div style="text-align:center;font-size:40;">
+<script type="text/javascript">
+var limit = prompt("Enter the limit : ");
+var n1=0,n2=1,sum=0;
+document.write("The limit is : "+limit+"<br/>");
+document.write("The Fibonacci series : <br/>")
+for(i=0;i<limit;i++){
+document.write(n1+"<br/>");
+sum=n1+n2;
+n1=n2;
+n2=sum;
+}
+</script>
+</div>
+</body>
+</html>
